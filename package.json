@@ -1,6 +1,6 @@
 {
-  "name": "ngx-json-viewer",
-  "version": "5.0.0",
+  "name": "@dw-legacy/ngx-json-viewer",
+  "version": "16.0.0",
   "description": "JSON formatter / viewer for Angular",
   "keywords": [
     "angular",
