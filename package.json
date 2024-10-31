@@ -1,5 +1,5 @@
 {
-  "name": "@dw-legacy/ngx-json-viewer",
+  "name": "@dw-ng-legacy/ngx-json-viewer",
   "version": "16.0.0",
   "description": "JSON formatter / viewer for Angular",
   "keywords": [
@@ -18,7 +18,7 @@
   "homepage": "https://github.com/hivivo/ngx-json-viewer#readme",
   "scripts": {
     "build": "ng-packagr -p ng-package.json",
-    "release": "yarn build && yarn publish ./dist",
+    "release": "yarn build && yarn publish ./dist --access public",
     "start": "yarn build && yarn --cwd ./example add ../dist && yarn --cwd ./example start"
   },
   "dependencies": {},
